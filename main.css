@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+h1,h2{ 
+    text-align: center;
+    color: red;
+}
+#board {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+#board > div {
+    border: 2px solid black;
+    height: 34%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    text-align: center;
+}
+button{
+    margin-top: 25px;
+}
